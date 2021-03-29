@@ -46,8 +46,8 @@ Answers:
 ### Release
 
 ```bash
-yarn build
-firebase deploy
+yarn release
+# runs yarn build && firebase deploy
 ```
 
 ## Available Scripts
