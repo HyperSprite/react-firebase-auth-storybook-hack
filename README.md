@@ -1,5 +1,8 @@
 # Google Sign: React + Firebase + Storybook
-Set up google authentication using firebase and use the Context API to access the user's authentication status so as to prevent unauthorised access to protected routes
+
+Publish Storybook behind google auth sign in on Firebase.
+
+Besides this repo, you'll need to `npm install -g firebase-tools`
 
 Configure the `.env` and drop your built storybook into `public/storybook` and it should just work.
 
@@ -45,10 +48,9 @@ Answers:
 
 ### Release
 
-```bash
-yarn release
-# runs yarn build && firebase deploy
-```
+### yarn release
+
+This runs runs `yarn build && firebase deploy`
 
 ## Available Scripts
 
