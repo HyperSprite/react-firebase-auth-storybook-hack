@@ -21,7 +21,34 @@ REACT_APP_COMPANY_EMAIL_DOMAIN="your-company-email.com domain"
 REACT_APP_SITE_TITLE="Site title, can be anything"
 ```
 
+### After building you can deploy to Firebase with
 
+```bash
+# do this once
+npm install -g firebase-tools
+firebase login
+firebase init
+# down arrow to Hosting, press space bar to select, then enter
+# crate a new project ? depends if you have one already
+# y to /index.html
+# no to auto deploy
+# no to overwrite public/index.html
+```
+
+Answers:
+
+- down arrow to Hosting, press space bar to select, then enter
+- crate a new project ? depends if you have one already
+- y to /index.html
+- no to auto deploy
+- no to overwrite public/index.html
+
+### Release
+
+```bash
+yarn build
+firebase deploy
+```
 
 ## Available Scripts
 
