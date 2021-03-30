@@ -8,7 +8,7 @@ Configure the `.env` and drop your built storybook into `public/storybook` and i
 
 ## Setup
 
-configure a `.env` file with the following:
+Copy `.env-template` to `.env` and configure it with the settings from your Firebase app:
 
 ```js
 REACT_APP_API_KEY="get from firebase app"
@@ -22,6 +22,7 @@ REACT_APP_MEASUREMENT_ID="get from firebase app"
 
 REACT_APP_COMPANY_EMAIL_DOMAIN="your-company-email.com domain"
 REACT_APP_SITE_TITLE="Site title, can be anything"
+PORT="3030"
 ```
 
 ### After building you can deploy to Firebase with
